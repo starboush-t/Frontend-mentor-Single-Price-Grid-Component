@@ -125,6 +125,10 @@ main {
   box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
+#btn:hover {
+  opacity: 0.9;
+}
+
 .whyUs {
   display: flex;
   flex-direction: column;
@@ -148,6 +152,15 @@ main {
   gap: 0.2rem;
   font-size: 0.8rem;
   color: var(--Light-Gray);
+}
+
+.whyUs ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.whyUs ul li a:hover {
+  color: var(--Bright-Yellow);
 }
 
 @media screen and (min-width: 500px) {
